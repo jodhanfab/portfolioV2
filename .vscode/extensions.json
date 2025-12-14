@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "k--kato.intellij-idea-keybindings",
+        "ms-vscode.sublime-keybindings",
+        "ms-vscode.notepadplusplus-keybindings",
+        "ms-vscode.vs-keybindings"
+    ]
+}

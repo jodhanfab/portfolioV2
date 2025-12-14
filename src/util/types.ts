@@ -119,3 +119,14 @@ export interface SecondaryRepoJSON {
 interface Languages {
 	[key: string]: string;
 }
+
+export interface Experience {
+	company: string;
+	position: string;
+	location: string;
+	startDate: string;
+	endDate: string | 'Present';
+	description: string[];
+	technologies: string[];
+	companyUrl?: string;
+}
