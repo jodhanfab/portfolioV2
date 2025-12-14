@@ -7,9 +7,9 @@
 <footer class="wrapper">
 	<Socials />
 	<h6>
-		Made with pain. &#60;3
+		Hustle when they rest. &#60;3
 		<Tooltip tip="you're here"><span>V2</span></Tooltip>
-		<Tooltip tip="kore kalam ayyi.. ;)">
+		<Tooltip tip="long before i was here.">
 			<a href="https://jodhanfab.github.io/Portfolio-Web/" target="_blank" rel="noreferrer">V1</a>
 		</Tooltip>
 	</h6>
