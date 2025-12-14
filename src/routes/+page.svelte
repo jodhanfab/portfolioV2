@@ -6,6 +6,7 @@
 	import Experience from '../components/organisms/Experience.svelte';
 	import WebCollaboration from '../components/organisms/WebCollaboration.svelte';
 	import Repos from '../components/organisms/Repos.svelte';
+	import Publications from '../components/organisms/Publications.svelte';
 	import Footer from '../components/molecules/Footer.svelte';
 </script>
 
@@ -17,5 +18,6 @@
 	<Experience />
 	<WebCollaboration />
 	<Repos />
+	<Publications />
 	<Footer />
 </main>

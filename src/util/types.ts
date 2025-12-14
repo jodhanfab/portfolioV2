@@ -130,3 +130,13 @@ export interface Experience {
 	technologies: string[];
 	companyUrl?: string;
 }
+
+export interface Publication {
+	title: string;
+	authors: string[];
+	venue: string;
+	year: string;
+	description?: string;
+	url?: string;
+	doi?: string;
+}
