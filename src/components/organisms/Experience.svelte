@@ -3,6 +3,7 @@
 	import experiences from '../../util/experiences.json';
 	import { onMount } from 'svelte';
 	import Tooltip from '../atoms/Tooltip.svelte';
+	import RetroGrid from '../molecules/RetroGrid.svelte';
 
 	let experienceData: Experience[] = experiences as Experience[];
 	let visibleCards: boolean[] = [];
@@ -52,53 +53,56 @@
 					{/if}
 				</div>
 
-				<div class="content max-md:!flex-col-reverse">
-					<div class="date-section">
-						<div class="flex gap-1 items-center text-white">
-							<span>{formatDate(experience.startDate)}</span>
-							<span class="text-[#d7714b] pb-2">→</span>
-							<span>{formatDate(experience.endDate)}</span>
-						</div>
-						<div class="duration">
-							{calculateDuration(experience.startDate, experience.endDate)}
-						</div>
-					</div>
-
-					<div class="details">
-						<div class="header">
-							{#if experience.companyUrl}
-								<a
-									href={experience.companyUrl}
-									target="_blank"
-									rel="noreferrer"
-									class="company-link"
-								>
-									<h3>{experience.position}</h3>
-									<h4>{experience.company}</h4>
-								</a>
-							{:else}
-								<div>
-									<h3>{experience.position}</h3>
-									<h4>{experience.company}</h4>
-								</div>
-							{/if}
-							<div class="location">
-								<span>{experience.location}</span>
+				<div class="relative !w-full">
+					<RetroGrid />
+					<div class="content max-md:!flex-col-reverse w-full">
+						<div class="date-section">
+							<div class="flex gap-1 items-center text-white">
+								<span>{formatDate(experience.startDate)}</span>
+								<span class="text-[#d7714b] pb-2">→</span>
+								<span>{formatDate(experience.endDate)}</span>
+							</div>
+							<div class="duration">
+								{calculateDuration(experience.startDate, experience.endDate)}
 							</div>
 						</div>
 
-						<ul class="description">
-							{#each experience.description as bullet}
-								<li>{bullet}</li>
-							{/each}
-						</ul>
+						<div class="details">
+							<div class="header">
+								{#if experience.companyUrl}
+									<a
+										href={experience.companyUrl}
+										target="_blank"
+										rel="noreferrer"
+										class="company-link"
+									>
+										<h3>{experience.position}</h3>
+										<h4>{experience.company}</h4>
+									</a>
+								{:else}
+									<div>
+										<h3>{experience.position}</h3>
+										<h4>{experience.company}</h4>
+									</div>
+								{/if}
+								<div class="location">
+									<span>{experience.location}</span>
+								</div>
+							</div>
 
-						<div class="technologies">
-							{#each experience.technologies as tech}
-								<Tooltip tip={tech}>
-									<span class="tech-badge">{tech}</span>
-								</Tooltip>
-							{/each}
+							<ul class="description">
+								{#each experience.description as bullet}
+									<li>{bullet}</li>
+								{/each}
+							</ul>
+
+							<div class="technologies">
+								{#each experience.technologies as tech}
+									<Tooltip tip={tech}>
+										<span class="tech-badge">{tech}</span>
+									</Tooltip>
+								{/each}
+							</div>
 						</div>
 					</div>
 				</div>
@@ -193,7 +197,6 @@
 		display: flex;
 		gap: 2rem;
 		padding: 2rem;
-		background: rgba(33, 28, 28, 0.4);
 		border: 1px solid rgba(215, 113, 75, 0.1);
 		border-radius: 12px;
 		transition: border-color 0.3s ease;
@@ -220,7 +223,6 @@
 			min-width: auto;
 		}
 	}
-
 
 	.duration {
 		font-family: var(--font-two);

@@ -13,14 +13,6 @@
 			'A comprehensive review analyzing serverless architecture for web applications, exploring its evolution, architecture, key characteristics, and use cases. The study examines cost-efficient deployment benefits including scalability, reliability, and performance, while addressing challenges such as limited infrastructure control and debugging complexity.',
 		url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4495958'
 	};
-
-	let visible = false;
-
-	onMount(() => {
-		setTimeout(() => {
-			visible = true;
-		}, 100);
-	});
 </script>
 
 <section class="wrapper" id="publications">
@@ -29,7 +21,7 @@
 	</div>
 
 	<div class="publication-container">
-		<div class="publication-card" class:visible>
+		<div class="publication-card">
 			<div class="publication-header">
 				{#if publication.url}
 					<a href={publication.url} target="_blank" rel="noreferrer" class="publication-link">
@@ -97,45 +89,14 @@
 		justify-content: center;
 		align-items: center;
 		margin-bottom: 6rem;
-		padding: 0 1rem;
-
-		@media (max-width: 868px) {
-			margin-bottom: 4rem;
-		}
 	}
 
 	.publication-card {
-		position: relative;
 		width: 100%;
 		padding: 2.5rem;
 		background-color: var(--neutral-two);
 		border-radius: 12px;
 		border: 1px solid var(--neutral-four);
-		backdrop-filter: blur(5px);
-		-webkit-backdrop-filter: blur(5px);
-		background-blend-mode: overlay;
-		transition:
-			transform 0.3s var(--bezier-one),
-			box-shadow 0.3s var(--bezier-one);
-		opacity: 0;
-		transform: translateY(20px);
-
-		&.visible {
-			opacity: 1;
-			transform: translateY(0);
-			transition:
-				opacity 0.6s var(--bezier-one),
-				transform 0.6s var(--bezier-one);
-		}
-
-		&:hover {
-			transform: translateY(-4px);
-			box-shadow: 0px 20px 40px -15px rgba(0, 0, 0, 0.3);
-
-			.open-icon {
-				filter: brightness(1.3);
-			}
-		}
 
 		@media (max-width: 868px) {
 			padding: 1.5rem;
