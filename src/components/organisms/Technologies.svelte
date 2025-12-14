@@ -4,13 +4,13 @@
 
 <section class="wrapper">
 	<div class="title mt-[5rem] md:mt-[10rem] mb-[1.5rem] md:mb-[3rem]">
-		<h2 class="text-5xl"><span class="text-[#d7714b]">Tech</span> Stack</h2>
+		<h2 class="text-5xl"><span class="text-[#d7714b]">Tech Stack</span> Worked With</h2>
 	</div>
 
 	<div class="tech-stack mb-[6rem] md:mb-[10rem]">
 		{#each technologies as { name, icon }}
 			<div class="tech">
-				<img src={icon} alt={name} />
+				<img src={icon} alt={name}  class="hover:scale-110 transition-all duration-300"/>
 				<h6>{name}</h6>
 			</div>
 		{/each}

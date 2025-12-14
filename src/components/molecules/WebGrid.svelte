@@ -4,6 +4,8 @@
 
 <div class="grid-container mb-[5rem] md:mb-[10rem]">
 	<div class="grid">
+		<Website wide technologies="Next JS, Mapbox, Turf.js, Tailwind" website="insights" websiteLink="https://insights.talkinglands.com/" websiteTitle="TL Insights" />
+		<Website wide technologies="Next JS, Mapbox, Turf.js, Tailwind" website="discover" websiteLink="https://discover.talkinglands.com/" websiteTitle="TL Discover" />
 		<Website tall technologies="React Native, Node.js, Express.js, postgresql" website="pill-up" websiteLink="https://www.pillup.com/" websiteTitle="Pill Up" />
 		<Website technologies="Svelte Kit, Tailwind, Firebase" website="rameem" websiteLink="https://rameem.vercel.app/" websiteTitle="Rameem" />
 		<Website shrink tall website="tech-inject" websiteLink="https://www.techinject.in/" websiteTitle="Tech Inject" technologies="Svelte Kit, Bootstrap, JQuery"/>

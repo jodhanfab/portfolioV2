@@ -1,62 +1,84 @@
 [
+	{
+		"name": "Next JS",
+		"icon": "/technologies/nextjs.png"
+	},
+	{
+		"name": "Mapbox",
+		"icon": "/technologies/mapbox.svg"
+	},
+	{
+		"name": "Svelte Kit",
+		"icon": "/technologies/svelte.png"
+	},
     {
-        "name": "Svelte Kit",
-        "icon": "/technologies/svelte.png"
+        "name": "Nuxt JS",
+        "icon": "/technologies/nuxt-js.png"
     },
+	{
+		"name": "React Native",
+		"icon": "/technologies/react.png"
+	},
+	{
+		"name": "Firebase",
+		"icon": "/technologies/firebase.png"
+	},
+
+	{
+		"name": "Typescript",
+		"icon": "/technologies/typescript.png"
+	},
+	{
+		"name": "React",
+		"icon": "/technologies/react.png"
+	},
+
+	{
+		"name": "Tailwind ",
+		"icon": "/technologies/tailwind-css.svg"
+	},
     {
-        "name": "Firebase",
-        "icon": "/technologies/firebase.png"
+        "name": "Tanstack",
+        "icon": "/technologies/tanstack.png"
     },
-    {
-        "name": "Typescript",
-        "icon": "/technologies/typescript.png"
-    },
-    {
-        "name": "React",
-        "icon": "/technologies/react.png"
-    },
-    {
-        "name": "Tailwind ",
-        "icon": "/technologies/tailwind-css.svg"
-    },
-    {
-        "name": "Bootstrap",
-        "icon": "/technologies/bootstrap.png"
-    }
-    ,{
-        "name": "Node JS ",
-        "icon": "/technologies/node js.png"
-    }
-    ,{
-        "name": "Express JS",
-        "icon": "/technologies/Express.png"
-    }
-    ,{
-        "name": "Mongo DB",
-        "icon": "/technologies/mongodb.png"
-    }
-    ,{
-        "name": "Figma",
-        "icon": "/technologies/figma.png"
-    }
-    ,{
-        "name": "My SQL",
-        "icon": "/technologies/sql.png"
-    }
-    ,{
-        "name": "Postgres SQL",
-        "icon": "/technologies/postgres.png"
-    }
-    ,{
-        "name": "Github",
-        "icon": "/technologies/github.png"
-    }
-    ,{
-        "name": "Photoshop",
-        "icon": "/technologies/ps.png"
-    }
-    ,{
-        "name": "Linux",
-        "icon": "/technologies/linux.png"
-    }
+	{
+		"name": "Bootstrap",
+		"icon": "/technologies/bootstrap.png"
+	},
+	{
+		"name": "Node JS ",
+		"icon": "/technologies/node js.png"
+	},
+	{
+		"name": "Express JS",
+		"icon": "/technologies/Express.png"
+	},
+	{
+		"name": "Mongo DB",
+		"icon": "/technologies/mongodb.png"
+	},
+	{
+		"name": "Figma",
+		"icon": "/technologies/figma.png"
+	},
+	{
+		"name": "My SQL",
+		"icon": "/technologies/sql.png"
+	},
+	{
+		"name": "Postgres SQL",
+		"icon": "/technologies/postgres.png"
+	},
+	{
+		"name": "Github",
+		"icon": "/technologies/github.png"
+	},
+	{
+		"name": "Photoshop",
+		"icon": "/technologies/ps.png"
+	},
+	{
+		"name": "Linux",
+		"icon": "/technologies/linux.png"
+	}
 ]

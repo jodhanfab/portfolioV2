@@ -45,17 +45,17 @@
 	<div class="title">
 		<h2 class="text-5xl"><span>coded</span>:projects</h2>
 	</div>
-	<div class="grid mb-[5rem] md:mb-[10rem]">
+	<div class="grid mb-[5rem] md:mb-[10rem] !gap-6">
 		{#if repos}
 			{#each repos as { name, description, owner, forks, stars, language, languageColor, url }, index}
 				<a href={url} target="_blank" rel="noreferrer">
 					<div class="repo-card relative">
 						<BorderBeam size={100} duration={10} delay={index > 0 ? 0 : -5} />
 						<div id="top-part">
-							<div class="info">
+							<div class="info !gap-4">
 								<img
-									src="https://github.com/{owner}.png"
-									alt="{owner}'s profile picture"
+									src="/icons/github.svg"
+									alt="github"
 									id="pfp"
 								/>
 								<h6>{owner}</h6>

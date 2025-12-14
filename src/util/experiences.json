@@ -1,44 +1,42 @@
 [
 	{
+		"company": "TalkingLands",
+		"position": "Software Engineer – Frontend",
+		"location": "India",
+		"startDate": "2024-11",
+		"endDate": "Present",
+		"description": [
+			"Developed and maintained interactive, map-driven user interfaces for a large-scale property intelligence platform using MapLibre and Next.js.",
+			"Implemented multi-layer map systems with dynamic styling, filtering, and feature selection for properties and available units.",
+			"Integrated and processed GIS datasets (GeoJSON) to visualize property boundaries, availability, and spatial insights.",
+			"Built location-based insights such as noise levels, traffic density, and surrounding infrastructure to support informed property decisions.",
+			"Utilized Turf.js for geospatial computations including distance calculations, buffering, and spatial analysis.",
+			"Worked on subscription-based product features, enabling plan-based access control and feature availability on the frontend.",
+			"Collaborated with product and backend teams to translate complex geospatial data into intuitive, user-friendly experiences."
+		],
+		"technologies": [
+			"Next.js",
+			"MapLibre GL",
+			"Turf.js",
+			"React Native",
+			"GeoJSON",
+			"TypeScript",
+			"Tailwind"
+		],
+		"companyUrl": "https://www.talkinglands.com"
+	},
+	{
 		"company": "Tech Inject Global Solutions",
 		"position": "Full Stack Web Developer",
 		"location": "Remote, India",
-		"startDate": "2023-01",
-		"endDate": "Present",
+		"startDate": "2023-04",
+		"endDate": "2024-11",
 		"description": [
 			"Developed and maintained multiple web applications using SvelteKit, React, and Node.js",
 			"Collaborated with cross-functional teams to deliver high-quality software solutions",
 			"Implemented responsive designs and optimized application performance"
 		],
-		"technologies": ["SvelteKit", "React", "Node.js", "Firebase", "TypeScript", "Tailwind"],
+		"technologies": ["SvelteKit", "Node.js", "Firebase", "TypeScript", "Tailwind"],
 		"companyUrl": "https://www.techinject.in/"
-	},
-	{
-		"company": "Example Company",
-		"position": "Frontend Developer",
-		"location": "Remote",
-		"startDate": "2022-06",
-		"endDate": "2022-12",
-		"description": [
-			"Built user interfaces for web applications",
-			"Collaborated with designers to implement pixel-perfect designs",
-			"Improved application performance and user experience"
-		],
-		"technologies": ["React", "JavaScript", "CSS", "HTML"],
-		"companyUrl": "https://example.com"
-	},
-	{
-		"company": "Example Company",
-		"position": "Frontend Developer",
-		"location": "Remote",
-		"startDate": "2022-06",
-		"endDate": "2022-12",
-		"description": [
-			"Built user interfaces for web applications",
-			"Collaborated with designers to implement pixel-perfect designs",
-			"Improved application performance and user experience"
-		],
-		"technologies": ["React", "JavaScript", "CSS", "HTML"],
-		"companyUrl": "https://example.com"
 	}
 ]

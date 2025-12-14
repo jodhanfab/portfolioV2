@@ -10,7 +10,7 @@
 		Made with pain. &#60;3
 		<Tooltip tip="you're here"><span>V2</span></Tooltip>
 		<Tooltip tip="kore kalam ayyi.. ;)">
-			<a href="https://jodhan-techinject.github.io/Portfolio-Web/" target="_blank" rel="noreferrer">V1</a>
+			<a href="https://jodhanfab.github.io/Portfolio-Web/" target="_blank" rel="noreferrer">V1</a>
 		</Tooltip>
 	</h6>
 </footer>
