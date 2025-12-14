@@ -4,16 +4,16 @@
 	// import Globe from '../molecules/Globe.svelte';
 	import OrdbitingCirclesGroup from '../molecules/OrdbitingCirclesGroup.svelte';
 
-	// let getAge = () => {
-	// 	let birthDate = new Date('2000/09/15');
-	// 	const ageMs = Date.now() - birthDate.getTime();
-	// 	return (ageMs / 31536000000).toFixed(10);
-	// };
+	let getAge = () => {
+		let birthDate = new Date('2000/09/15');
+		const ageMs = Date.now() - birthDate.getTime();
+		return (ageMs / 31536000000).toFixed(10);
+	};
 
-	// let age = getAge();
-	// setInterval(() => {
-	// 	age = getAge();
-	// }, 1000);
+	let age = getAge();
+	setInterval(() => {
+		age = getAge();
+	}, 1000);
 </script>
 
 <section id="about" class="wrapper">
@@ -26,8 +26,11 @@
 	<div class="text">
 		<h2>bio</h2>
 		<p>
-			Hi, I’m <strong>Jodhan Saji</strong> — a <strong>Software Engineer</strong> with experience
-			building modern web applications using
+			Hi, I’m <strong>Jodhan Saji </strong>
+			(<Tooltip tip="I'm {age} years old">
+				<span>{Math.floor(Number(age))}</span>
+			</Tooltip>) — a <strong>Software Engineer</strong>
+			with experience building modern web applications using
 			<strong> Next.js, Svelte, TypeScript, Firebase, and Node.js</strong>. I hold a degree in
 			Computer Science and Engineering from
 			<Tooltip tip="Lovely Professional University">
@@ -41,8 +44,8 @@
 				</a>
 			</Tooltip>, a prop-tech product company, where I specialize in building
 			<strong> map-driven and geospatial web applications</strong> using
-			<strong> MapLibre, Leaflet, Mapbox, Next.js, GeoJSON, and Turf.js</strong> to deliver property intelligence
-			and location-based insights at scale.
+			<strong> MapLibre, Leaflet, Mapbox, Next.js, GeoJSON, and Turf.js</strong> to deliver property
+			intelligence and location-based insights at scale.
 		</p>
 	</div>
 </section>
