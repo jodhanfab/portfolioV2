@@ -1,7 +1,5 @@
 <script lang="ts">
 	import type { Publication } from '../../util/types';
-	import BorderBeam from '../molecules/BorderBeam.svelte';
-	import { onMount } from 'svelte';
 
 	// Since you only have one publication, you can customize this data
 	let publication: Publication = {
