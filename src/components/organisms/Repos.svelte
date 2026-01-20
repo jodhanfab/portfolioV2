@@ -3,41 +3,41 @@
 	import BorderBeam from '../molecules/BorderBeam.svelte';
 
 	let repos: Repo[] = [{
+		description: 'A Next.js + MediaPipe powered real-time hand-gesture drawing application using camera-based landmark tracking for touchless interaction.',
+		forks: 1,
+		language: 'MediaPipe, Next, TypeScript',
+		languageColor: 'green',
+		name: 'Air Canvas',
+		owner: 'jodhan-techinject',
+		stars: 0,
+		url: 'https://github.com/jodhanfab/air-canvas'
+	},{
 		description: 'A website for creating AI generated images using OPEN AI and share to the community',
 		forks: 1,
 		language: 'MERN, Tailwind, Stable Diffusion, Cloudinary',
 		languageColor: 'red',
 		name: 'AIR-IMG',
-		owner: 'jodhan-techinject',
+		owner: 'jodhanfab',
 		stars: 5,
-		url: 'https://github.com/jodhan-techinject/AirIMG'
+		url: 'https://github.com/jodhanfab/AirIMG'
 	}, {
 		description: 'Map Nest is an interactive map-focused web application designed to explore various geographic and architectural data across different locations. ',
 		forks: 4,
 		language: 'Map Libre, Svelte-Kit, Tailwind, TypeScript',
 		languageColor: 'purple',
 		name: 'MAP NEST',
-		owner: 'jodhan-techinject',
+		owner: 'jodhanfab',
 		stars: 3,
-		url: 'https://github.com/jodhan-techinject/map-nest'
+		url: 'https://github.com/jodhanfab/map-nest'
 	}, {
 		description: 'Wifi-deauther using esp8266 board and arduino IDE',
 		forks: 0,
 		language: 'C, C++',
 		languageColor: 'blue',
 		name: 'Wifi Deauther Esp8266',
-		owner: 'jodhan-techinject',
+		owner: 'jodhanfab',
 		stars: 2,
-		url: 'https://github.com/jodhan-techinject/wifi-deauther-esp8266'
-	}, {
-		description: 'Simple Tic Tac Toe using vanilla JS',
-		forks: 1,
-		language: 'JS, HTML, CSS',
-		languageColor: 'green',
-		name: 'TIC TAC TOE',
-		owner: 'jodhan-techinject',
-		stars: 0,
-		url: 'https://github.com/jodhan-techinject/tic-toc-toe'
+		url: 'https://github.com/jodhanfab/wifi-deauther-esp8266'
 	}];
 </script>
 
