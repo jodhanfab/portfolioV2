@@ -38,6 +38,24 @@
 		owner: 'jodhanfab',
 		stars: 2,
 		url: 'https://github.com/jodhanfab/wifi-deauther-esp8266'
+	}, {
+		description: 'A flow diagram builder application',
+		forks: 0,
+		language: 'React, Tailwind, TypeScript',
+		languageColor: 'violet',
+		name: 'Flow Grid',
+		owner: 'jodhanfab',
+		stars: 2,
+		url: 'https://github.com/jodhanfab/flow-grid'
+	}, {
+		description: 'My Portfolio V2',
+		forks: 0,
+		language: 'Svelte, Tailwind, TypeScript',
+		languageColor: 'yellow',
+		name: 'Porfolio V2',
+		owner: 'jodhanfab',
+		stars: 2,
+		url: 'https://github.com/jodhanfab/portfolioV2'
 	}];
 </script>
 
